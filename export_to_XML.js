@@ -28,10 +28,9 @@ function exportSheetToXml(spreadsheetId, sheetName, includeHeader = true){
           if(headerCell){group = [row[index]]}
           else{group.push(row[index])}
           
-          if(header[index+1]){
+          if(header[index+1]||index===header.length-1){
             if(group.length===1){xmlString += `    <${headerCell}>${group.join()}</${headerCell}>\n`}
             else{
-              Logger.log(group);
               xmlString += `    <${header[index-group.length+1]}>\n`;
               group.forEach(item => xmlString += item?`      <value>${item}</value>\n`:'');
               xmlString += `    </${header[index-group.length+1]}>\n`;
