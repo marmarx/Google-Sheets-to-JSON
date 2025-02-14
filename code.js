@@ -72,7 +72,7 @@ function saveJsonToDrive(ssName, sheetName, jsonString, folderId){
       file = DriveApp.createFile(blob); //Save to the root of Google Drive
     }
     
-    Logger.log(`JSON saved to Drive: https://drive.google.com/file/d/${file.getId()}/view?usp=sharing`);
+    Logger.log(`JSON saved to Drive: https://drive.google.com/file/d/${file.getId()}/view`);
     return file.getId();
 
   }catch (error){
