@@ -7,7 +7,7 @@ Instructions:
 1. Open <a href="https://docs.google.com/spreadsheets" target="_blank">Google Sheets</a>
 2. Open a Spreadsheet you'd like to export
 3. Click <i>'Extensions'</i> then <i>'Apps Script'</i>
-4. Copy the code from <i>'json.js'</i> or from <i>'xml.js'</i> to <i>'code.gs'</i> within the Apps Script window and click <i>'Save'</i>
+4. Copy the code from <i>'export_to_JSON.js'</i> or from <i>'export_to_XML.js'</i> to <i>'code.gs'</i> within the Apps Script window and click <i>'Save'</i>
 5. At the bottom, inside the <i>'exportAndSave'</i> function, add your <i>'Spreadsheet ID'</i>, <i>'Sheet name'</i> and the <i>'Google Drive folder ID'</i> to which you'd like to save the JSON/XML file
 6. Read the code and agree to give the permissions required
 7. Select the <i>'exportAndSaveJSON'</i> or the <i>'exportAndSaveXML'</i> function in the dropdown list
