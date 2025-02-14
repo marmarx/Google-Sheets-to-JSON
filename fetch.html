@@ -1,5 +1,10 @@
 <script>
-const data = fetch('./exported_example.json')
+const json = fetch('./exported_example.json')
   .then(response => response.json())
-  .then(data => console.log(data));
+  .then(data => console.log('JSON:\r',data));
+
+const xml = fetch('./exported_example.xml')
+        .then(response => response.text())
+        .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+        .then(data => console.log('XML:\r',data));
 </script>
