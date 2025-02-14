@@ -9,6 +9,7 @@
       <value>english</value>
       <value>german</value>
     </language>
+    <age>25</age>
   </row>
   <row>
     <name>Jane</name>
@@ -17,6 +18,7 @@
     <language>
       <value>english</value>
     </language>
+    <age>21</age>
   </row>
   <row>
     <name>Rosa</name>
@@ -26,6 +28,7 @@
       <value>portuguese</value>
       <value>spanish</value>
     </language>
+    <age>23</age>
   </row>
   <row>
     <name>Aurora</name>
@@ -34,6 +37,7 @@
     <language>
       <value>meow</value>
     </language>
+    <age>3</age>
   </row>
   <row>
     <name>Boreas</name>
@@ -43,5 +47,6 @@
       <value>meow</value>
       <value>bark</value>
     </language>
+    <age>5</age>
   </row>
 </Sheet1>
