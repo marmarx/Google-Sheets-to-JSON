@@ -5,7 +5,7 @@ It will save the JSON file to your Google Drive's root folder or a specific fold
 
 Instructions:
 1. Open a Spreadsheet
-2. Click 'Extention' then 'Apps Script'
+2. Click <i>Extensions</i> then <i>Apps Script</i>
 3. Copy the code from 'code.js' to 'code.gs' within the Apps Script window and click 'Save'
 4. At the bottom, inside the 'exportAndSave' function, add your 'Spreadsheet ID', 'Sheet name' and the 'Google Drive folder ID' to which you'd like to export the JSON file
 5. Read the code and agree to give the permissions required
