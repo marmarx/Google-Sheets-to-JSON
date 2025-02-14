@@ -12,3 +12,5 @@ Instructions:
 6. Read the code and agree to give the permissions required
 7. Select the <i>'exportAndSave'</i> function in the dropdown list
 8. Click <i>'> Run'</i>
+
+Sheet example: <a href="https://docs.google.com/spreadsheets" target="_blank">https://docs.google.com/spreadsheets/d/e/2PACX-1vQXYj0HntM_TNOabJeDTPKfRtdCUs283Q3heKARAdfem2Xoged9nfrgZVP8N71X75t1W2W-U2ItQwdQ/pubhtml</a>
