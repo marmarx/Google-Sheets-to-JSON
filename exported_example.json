@@ -1,0 +1,51 @@
+[
+  {
+    "name": "John",
+    "type": "human",
+    "country": "Brazil",
+    "language": [
+      "portuguese",
+      "english",
+      "german"
+    ],
+    "age": "25"
+  },
+  {
+    "name": "Jane",
+    "type": "human",
+    "country": "USA",
+    "language": [
+      "english"
+    ],
+    "age": "21"
+  },
+  {
+    "name": "Rosa",
+    "type": "human",
+    "country": "Spain",
+    "language": [
+      "portuguese",
+      "spanish"
+    ],
+    "age": "23"
+  },
+  {
+    "name": "Aurora",
+    "type": "cat",
+    "country": "USA",
+    "language": [
+      "meow"
+    ],
+    "age": "3"
+  },
+  {
+    "name": "Boreas",
+    "type": "cat",
+    "country": "Brazil",
+    "language": [
+      "meow",
+      "bark"
+    ],
+    "age": "5"
+  }
+]
